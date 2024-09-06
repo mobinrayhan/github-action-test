@@ -7,4 +7,4 @@ jobs:
       - name : Print Hello World
         run: echo "Hello First Steap"
       - name : End First Step - Hello World
-        run : "End First Step"
+        run : echo "End First Step"
