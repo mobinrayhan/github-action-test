@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest 
     steps: 
       - name : TEST 1
-        run : Write-Output "test1";
+        run : echo "test1";
       - name : TEST 2
-        run : Write-Output "test 2";
+        run : echo "test 2";
       - name : RUN FOR WINDOWS 
-        run : Write-Output "Ran For Windows Powershell Successfully"
+        run : echo "Ran For Ubuntu Successfully"
 
