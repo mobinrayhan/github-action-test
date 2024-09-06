@@ -2,7 +2,7 @@ name: TEST Action
 on: workflow_dispatch 
 jobs: 
   first-job: 
-    runs-on: windows-latest 
+    runs-on: ubuntu-latest 
     steps: 
       - name : TEST 1
         run : Write-Output "test1";
