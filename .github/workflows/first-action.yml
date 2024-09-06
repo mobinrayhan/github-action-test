@@ -4,7 +4,10 @@ jobs:
   first-job: 
     runs-on: windows-latest 
     steps: 
-      - name : Print Hello World
-        run: echo "Hello First Steap"
-      - name : End First Step - Hello World
-        run : echo "End First Step"
+      - name : TEST 1
+        run : Write-Output "test1";
+      - name : TEST 2
+        run : Write-Output "test 2";
+      - name : RUN FOR WINDOWS 
+        run : Write-Output "Ran For Windows Powershell Successfully"
+
