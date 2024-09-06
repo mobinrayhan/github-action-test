@@ -1,0 +1,10 @@
+name: TEST Action
+on: workflow_dispatch 
+jobs: 
+  first-job: 
+    runs-on: windows-latest 
+    steps: 
+      - name : Print Hello World
+        run: echo "Hello First Steap"
+      - name : End First Step - Hello World
+        run : "End First Step"
